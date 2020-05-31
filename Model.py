@@ -1,5 +1,4 @@
 '''AIR QUALITY PREDICTION using multiple regression.'''
-
 # Importing Libraries
 import matplotlib.pyplot as plt
 import pandas as pd 
@@ -23,7 +22,5 @@ def main():
         for i in y_pred:
             file.write(str(i)+'\n')
     
-    
-
 if __name__ == "__main__":
     main()
